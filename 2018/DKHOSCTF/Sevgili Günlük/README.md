@@ -6,12 +6,27 @@ Challenge : Mahmut Pelinsu'nun gizli mesajlarını içeren günlüğünü elde e
 
 Verilen sıkıştırılmış dosyanın içerisinde [flag.txt.enc](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/flag.txt.enc) ve [public.key](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/public.key) mevcut.
 
+Public Keyimiz
+```
+-----BEGIN PUBLIC KEY-----
+MHQwDQYJKoZIhvcNAQEBBQADYwAwYAJZAMm8boGdMWojp16imqdChjRhfAmm53ol
+yIhM1AXft8qjcF2P1cfb0ZMOrbP7TUYB4zCt0SH098xRUlOxAdMQ2duzpy7KNqHe
+Yqb01XP1+3HK2wF1edzhSekCAwEAAQ==
+-----END PUBLIC KEY-----
+```
+Encrypted Flag
+```
+~}�<��6
+2m^j'��j��%���/�Y[ڵ����:K�Q�0�e�q�-�c|GzM.���G��)�e���R�B�b��f9q�J
+```
+
 Kısaca açıklamak gerekirse,
 Public Key sadece Modu(N) ve Exponenti(e) içerir. 
 N sayısı, p ve q olan 2 tane asal sayı ile kolayca faktörize edilebilir bi sayı olarak verilmiş. Bu durumda N = p x q
 Böylece p ve q sayısını kullanarak private key üretebiliriz ve bize verilen encrypted veriyi decrypt edebiliriz.
 
-1. Openssl yardımıyla 704 bitlik RSA Public Key olduğunu öğreniyoruz. Faktörizasyon işlemini kolaylaştırmak için hexten decimal sayıya çevirdik.
+
+Openssl yardımıyla 704 bitlik RSA Public Key olduğunu öğreniyoruz. Faktörizasyon işlemini kolaylaştırmak için hexten decimal sayıya çevirdik.
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/1.png)
 
@@ -38,5 +53,31 @@ Private key üretmek için RSATOOL genelde sıkça kullanılan bi python scripti
 ```
 rsatool -p 8143859259110045265727809126284429335877899002167627883200914172429324360133004116702003240828777970252499 -q 8143859259110045265727809126284429335877899002167627883200914172429324360133004116702003240828777970252499 -o private.key
 ```
+Ürettiğimiz Private Key
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIBewIBAAJZAMm8boGdMWojp16imqdChjRhfAmm53olyIhM1AXft8qjcF2P1cfb0ZMOrbP7TUYB
+4zCt0SH098xRUlOxAdMQ2duzpy7KNqHeYqb01XP1+3HK2wF1edzhSekCAwEAAQJZAMjjue+ch464
+fn0A05zn5BjZUtmRuUSrx2vjhedrhuxloQmqqCpjvekBXvywy06vwgWHiys/KhQ0Qbw9fmHtJDU5
+46BOoUT+tHEmhJWCFpdDLOZQ5JrF2nUCLQDjQQ2E7oFs6+jJb1N0q/Q/K03E7O3+xlgq/cjKGdLR
+T4BJX9ni7nNWp4e60wItAONBDYTugWzr6MlvU3Sr9D8rTcTs7f7GWCr9yMoZ0tFPgElf2eLuc1an
+h7rTAiwn2IkpTLRux7JqV1W3uEq8JLifFbfpGxfsedER9pMrVhg1RVQr4QliIT/ANwIsJ9iJKUy0
+bseyaldVt7hKvCS4nxW36RsX7HnREfaTK1YYNUVUK+EJYiE/wDcCAQA=
+-----END RSA PRIVATE KEY-----
+```
+Private Keyi ürettiğimize göre encrypted veriyi yine openssl yardımıyla decrypt edebiliriz
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/4.png)
+
+```
+openssl rsautl -decrypt -in flag.txt.enc -out flag.txt -inkey private.key
+```
+Sonuç olarak elde ettiğimiz flag:
+
+```
+DKHOS_{b4by_h3ll0_w0rld_crypt0_b4by}
+```
+
+
+
 
 
