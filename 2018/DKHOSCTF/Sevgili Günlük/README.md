@@ -44,7 +44,7 @@ Sayıyı faktörize edebildik
 ```
 (8143859259110045265727809126284429335877899002167627883200914172429324360133004116702003240828777970252499)^2
 ```
-106 basamaklı sayının karesi olarak çıktığı için bu durumda p ve q değerlerimiz eşit 
+106 basamaklı asal sayının karesi olarak çıktığı için bu durumda p ve q asal değerlerimiz birbirine eşit 
 
 Private key üretmek için RSATOOL genelde sıkça kullanılan bi python scripti
 
