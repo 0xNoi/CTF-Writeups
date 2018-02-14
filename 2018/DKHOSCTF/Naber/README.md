@@ -15,7 +15,7 @@ Ekiple Paylasilacaklar bölümünde bulduğum uzantıyı chat whatsapp ile birle
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/6.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/7.png)
 
-Fakat bulduğum flagi denememe rağmen işe yaramadı fakat yetkililerle konuştuğumda databasedeki flagi yanlış girdiklerini söyleyip sorunu hemen düzelttiler. Nyx ekibi olarak soruyu ilk çözerek 300 + 30 puanı aldık.
+Bulduğum flagi denememe rağmen işe yaramadı fakat yetkililerle konuştuğumda databasedeki flagi yanlış girdiklerini söyleyip sorunu hemen düzelttiler. Nyx ekibi olarak soruyu ilk çözerek 300 + 30 puanı aldık.
 
 ```
 flag: DKHOS_{b3nims1n_p3lin5u}
