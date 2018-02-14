@@ -11,7 +11,7 @@ Commitlerine göz attığımızda "haker_hater" adında bir tane pastebin kullan
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/4.png)
 VPN ya da online bir proxy kullanıp linkine gittiğimizde
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/5.png)
-Ekiple Paylasilacaklar bölümünde bulduğum uzantıyı chat whatsapp ile birleştirdiğimde flag çıktı
+Ekiple Paylasilacaklar bölümünde bulduğumuz uzantıyı chat whatsapp ile birleştirdiğimizde flag çıktı.
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/6.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/7.png)
 
