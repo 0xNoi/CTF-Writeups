@@ -6,7 +6,7 @@ Stego olduğunu düşündüğüm fotoğrafın uzantısına, strings, hex ve exif
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Ge%C3%A7mi%C5%9Fe%20Yolculuk/1.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Ge%C3%A7mi%C5%9Fe%20Yolculuk/2.png)
 
-Çıkan harfleri birleştirdiğimizde flag geldi
+Gray bitste çıkan harfleri birleştirdiğimizde flag geldi
 ```
 flag: UNSTOPPABLE
 ``` 
