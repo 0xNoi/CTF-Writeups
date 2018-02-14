@@ -1,1 +1,1 @@
-# DKHOSCTF-Writeups
+# CTF-Writeups
