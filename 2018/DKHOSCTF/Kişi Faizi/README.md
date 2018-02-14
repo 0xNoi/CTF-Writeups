@@ -1,5 +1,9 @@
 # KİŞİ FAİZİ (TRIVIA 400)
 
+```
+Challenge: Pelinsu son aramalarında amcası ile uzun uzun konuşmuştu. Pelinsu'nun amcası Frank Stephens'ın öldüğünü bildiren belgenin tarihi Mahmut için önemli olabilirdi. 
+```
+
 Sorunun ismini tek tek ingilizceye çevirince
 Kişi = Person || Faiz = Interest
 
