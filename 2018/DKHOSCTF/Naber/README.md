@@ -9,7 +9,7 @@ Challenge: Pelinsu zamanında en yakın arkadaşı hipster_koder ile görüşmek
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/3.png)
 Commitlerine göz attığımızda "haker_hater" adında bir tane pastebin kullanıcı adına ulaştık. Bu durumda pastebin linki: pastebin.com/u/haker_hater 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/4.png)
-VPN ya da online bir proxy kullanıp linkine gittiğimde
+VPN ya da online bir proxy kullanıp linkine gittiğimizde
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/5.png)
 Ekiple Paylasilacaklar bölümünde bulduğum uzantıyı chat whatsapp ile birleştirdiğimde flag çıktı
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/6.png)
