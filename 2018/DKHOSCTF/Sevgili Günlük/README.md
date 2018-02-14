@@ -78,6 +78,6 @@ DKHOS_{b4by_h3ll0_w0rld_crypt0_b4by}
 ```
 
 
-
+Son olarak üzücü olan şey şu ki bu soruyu, faktörize işlemini yaptıktan sonra elde edilen asal sayıyı defalarca yanlış kopyaladığım için sorudan pes edip yarışma devam ederken flagi giremedik. Unutmamak adına bu write upı paylaşıyorum! :D
 
 
