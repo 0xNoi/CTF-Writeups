@@ -12,7 +12,7 @@ Aklımıza direk Person of Interest dizisi geldi googlede bi araştırma yaptı�
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Ki%C5%9Fi%20Faizi/2.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Ki%C5%9Fi%20Faizi/3.png)
 
-İlk sezonunu 3. bölümünün yaklaşık 28. dakikasında dizideki bilgisayar ekranında 2-3 saniyeliğine monitöre gelen ekran flagimiz:
+İlk sezonunun 3. bölümünün yaklaşık 28. dakikasında dizideki bilgisayar ekranında 2-3 saniyeliğine flagimiz çıkıyor:
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Ki%C5%9Fi%20Faizi/4.png)
 
 ```
