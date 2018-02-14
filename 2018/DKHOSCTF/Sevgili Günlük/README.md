@@ -26,7 +26,7 @@ N sayısı, p ve q olan 2 tane asal sayı ile kolayca faktörize edilebilir bi s
 Böylece p ve q sayısını kullanarak private key üretebiliriz ve bize verilen encrypted veriyi decrypt edebiliriz.
 
 
-Openssl yardımıyla 704 bitlik RSA Public Key olduğunu öğreniyoruz. Faktörizasyon işlemini kolaylaştırmak için hexten decimal sayıya çevirdik.
+Openssl yardımıyla 704 bitlik RSA Public Key olduğunu öğreniyoruz. Faktörizasyon işlemini kolaylaştırmak için hexadecimalden decimal sayıya çevirdik.
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/1.png)
 
