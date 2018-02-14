@@ -22,7 +22,7 @@ Encrypted Flag
 
 Kısaca açıklamak gerekirse,
 Public Key sadece Modu(N) ve Exponenti(e) içerir. 
-N sayısı, p ve q olan 2 tane asal sayı ile kolayca faktörize edilebilir bi sayı olarak verilmiş. Bu durumda N = p x q
+N sayısı, p ve q olan 2 tane asal sayı ile kolayca faktörize edilebilir bi sayı olarak verilmiş. Bu durumda N = p x q.
 Böylece p ve q sayısını kullanarak private key üretebiliriz ve bize verilen encrypted veriyi decrypt edebiliriz.
 
 
