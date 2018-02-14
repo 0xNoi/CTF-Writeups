@@ -7,7 +7,7 @@ Challenge: Pelinsu zamanında en yakın arkadaşı hipster_koder ile görüşmek
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/1.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/2.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/3.png)
-Commitlerine göz attığımızda "haker_hater" adında bir tane pastebin kullanıcı adına ulaştım. Bu durumda pastebin linki: pastebin.com/u/haker_hater 
+Commitlerine göz attığımızda "haker_hater" adında bir tane pastebin kullanıcı adına ulaştık. Bu durumda pastebin linki: pastebin.com/u/haker_hater 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/4.png)
 VPN ya da online bir proxy kullanıp linkine gittiğimde
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Naber/5.png)
