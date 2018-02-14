@@ -13,7 +13,7 @@ Böylece p ve q sayısını kullanarak private key üretebiliriz ve bize verilen
 
 1. Openssl yardımıyla 704 bitlik RSA Public Key olduğunu öğreniyoruz. Faktörizasyon işlemini kolaylaştırmak için hexten decimal sayıya çevirdik.
 
-[1.png](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/1.png)
+[](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/DKHOSCTF/Sevgili%20G%C3%BCnl%C3%BCk/1.png)
 
 ```
 openssl rsa -noout -text -inform PEM -in public.key -pubin
