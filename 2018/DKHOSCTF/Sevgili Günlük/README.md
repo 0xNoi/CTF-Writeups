@@ -8,7 +8,7 @@ Verilen sıkıştırılmış dosyanın içerisinde [flag.txt.enc](https://raw.gi
 
 Kısaca açıklamak gerekirse,
 Public Key sadece Modu(N) ve Exponenti(e) içerir. 
-N sayısı, p ve q 2 tane asal sayı ile kolayca faktörize edilebilir bi sayı olarak verilmiş. Bu durumda N = p x q
+N sayısı, p ve q olan 2 tane asal sayı ile kolayca faktörize edilebilir bi sayı olarak verilmiş. Bu durumda N = p x q
 Böylece p ve q sayısını kullanarak private key üretebiliriz ve bize verilen encrypted veriyi decrypt edebiliriz.
 
 1. Openssl yardımıyla 704 bitlik RSA Public Key olduğunu öğreniyoruz. Faktörizasyon işlemini kolaylaştırmak için hexten decimal sayıya çevirdik.
