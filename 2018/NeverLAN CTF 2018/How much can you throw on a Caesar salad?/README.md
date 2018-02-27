@@ -8,7 +8,7 @@ Here's the given jpeg file
 
 Looks like stego challenge in there
 
-Then I tried steghide 
+Then I tried steghide. 
 Password should be "neverlan" but it didnt work then tried "neverlanctf" so it worked and extracted WhyS0CuR1o5.txt
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/1.png)
 
