@@ -12,7 +12,7 @@ Then I tried steghide.
 Password should be "neverlan" but it didnt work then tried "neverlanctf" so it worked and extracted WhyS0CuR1o5.txt
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/1.png)
 
-in WhyS0CuR1o5.txt looks like base64, I decoded output is some binary values again I tried binary to ascii, heres the some ciphertext and I tried caeser bruteforced it worked.
+in WhyS0CuR1o5.txt looks like base64, I decoded output is some binary values again, I tried binary to ascii, heres the some ciphertext and I tried caesar bruteforced it worked.
 ```
 MDEwMDExMDAgMDExMDAxMDEgMDExMTAxMTEgMDExMDExMDAgMDExMTEwMDEgMDExMTAwMDAgMDExMDExMDAgMDExMTAxMDEgMDExMDEwMTAgMDExMDExMDAgMDAxMDAwMDAgMDExMTAwMDAgMDExMTEwMTAgMDAxMDAwMDAgMDExMDAwMDEgMDExMDExMTEgMDExMDExMDAgMDAxMDAwMDAgMDEwMDAwMDEgMDExMDExMDAgMDExMDEwMDAgMDExMDEwMTAgMDExMDExMTEgMDExMDExMDAgMDExMTEwMDEgMDAxMDAwMDAgMDExMTAxMTAgMDExMDExMDEgMDAxMDAwMDAgMDExMDEwMDAgMDExMTAwMTEgMDExMTAwMTEgMDAxMDAwMDAgMDExMDAwMDEgMDExMDExMTEgMDExMTAwMDAgMDExMTAxMDEgMDExMDExMTAgMDExMTEwMTAgMDAwMTAxMA==
 ```
