@@ -45,7 +45,7 @@ flag{Caesar_Gaius_Julius}
 ```
 But these didnt work
 
-After then research in google about Caesar I found his latin name
+After then research in google about Caesar I found his latin script
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/7.png)
 
 CAIVS IVLIVS CAESAR
