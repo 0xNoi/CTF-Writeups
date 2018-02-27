@@ -33,10 +33,10 @@ EXPERIENCE IS THE TEACHER OF ALL THINGS
 I searched this words in google and its Caesar Words
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/5.png)
 
-Original full name 
+Original full name Gaius Julius Caesar
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/6.png)
 
-When I found tried almost all combination
+When I found this, tried almost all combinations
 like
 ```
 flag{Gaius_Juluis_Caesar}
