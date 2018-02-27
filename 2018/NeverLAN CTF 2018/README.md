@@ -1,2 +1,2 @@
-# s7a73farm's Recon
+# NeverLAN CTF 2018 
 
