@@ -6,18 +6,6 @@ Challenge: Cryptography is the art of hiding things. there are multiple ways to 
 Here's the given jpeg file
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/O_SO_Curious.jpeg)
 
-When I looked jpeg strings 
-```
-JFIF
- $.' ",#
-(7),01444
-'9=82<.342
-!22222222222222222222222222222222222222222222222222
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-	#3R
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-```
 Looks like stego challenge in there
 
 Then I tried steghide 
