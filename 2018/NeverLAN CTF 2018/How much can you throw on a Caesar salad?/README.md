@@ -42,7 +42,7 @@ Lewlyplujl pz aol Alhjoly vm hss aopunz
 ```
 EXPERIENCE IS THE TEACHER OF ALL THINGS
 ```
-I searched this words in google and its Ceaser Words
+I searched this words in google and its Caesar Words
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/NeverLAN%20CTF%202018/How%20much%20can%20you%20throw%20on%20a%20Caesar%20salad%3F/5.png)
 
 Original full name 
