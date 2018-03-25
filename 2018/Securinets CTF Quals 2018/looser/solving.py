@@ -1,3 +1,5 @@
+#python2 script @Ozan
+
 import binascii
 filename = 'flag.png.crypt'
 with open(filename, 'rb') as f:
