@@ -43,14 +43,17 @@ c = 1237246926259160194461212150945844715199415065489186503438046391250572086566
 
 So let me show you, How to find these values:
 
+finding N and e
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/2.png)
+
+finding c
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/5.png)
 I dont know I couldnt convert base64 to hex. some lib issue so I quickly try online tool
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/6.png)
 
-As you can see we already have e,N,p,φ(p) now we will find d:
+As you can see we already have c,e,N,p,φ(p) now we will find d:
 that formula 
 
 de ≡ 1 mod φ(p)
