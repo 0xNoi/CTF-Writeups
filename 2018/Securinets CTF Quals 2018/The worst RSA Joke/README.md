@@ -21,7 +21,8 @@ One of the reasons RSA is so popular is the simplicity of the cryptosystem. Here
 6) To encrypt a message m, compute m^e mod (N)
 7) To decrypt a ciphertext c, compute c^d mod (N)
 
-But we got a problem in there normally we must have 2 prime numbers but question said to us "their security team to create pairs key using A SINGLE STRONG(BIG) PRIME MODULUS. Which means that, there are no 2 prime numbers there is a only p. So I research in google about single prime modulus rsa and found some article: 
+But we got a problem in there normally we must have 2 prime numbers but question said to us "their security team to create pairs key using A SINGLE STRONG(BIG) PRIME MODULUS. Which means that, there are no 2 prime numbers there is a only p. So I research in google about single prime modulus rsa and found some article:
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/3.png)
 source: https://math.stackexchange.com/questions/1077411/textbook-rsa-game-with-one-prime
 
