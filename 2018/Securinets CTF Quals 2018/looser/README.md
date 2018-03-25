@@ -4,7 +4,7 @@ Here's the challenge:
 
 [flag.png.crypt](https://github.com/ozancetin/CTF-Writeups/blob/master/2018/Securinets%20CTF%20Quals%202018/looser/flag.png.crypt?raw=true)
 
-I thought it can be single byte xor and I write a clear python2 script:
+I thought it can be single byte xor and I wrote a clear python2 script:
 
 ```python
 
