@@ -6,7 +6,7 @@ Here's the challenge:
 
 I thought it can be single byte xor and I write a clear python2 script:
 
-'''python
+```python
 
 import binascii
 filename = 'flag.png.crypt'
@@ -24,7 +24,7 @@ for i in range(0x00,0xff):
 		solved = open("flag.png","w")
 		solved.write(result)
 		solved.close()
-'''
+```
 
 It worked and here's the flag.png
 
