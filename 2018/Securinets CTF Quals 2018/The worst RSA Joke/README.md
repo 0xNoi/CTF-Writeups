@@ -58,7 +58,7 @@ that formula
 
 de ≡ 1 mod φ(p)
 
-we need to modular multiplicative inverse, using gmpy lib in python
+we need to do modular multiplicative inverse, using gmpy lib in python
 
 using: gmpy.invert(e, φ(p))
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/4.png)
