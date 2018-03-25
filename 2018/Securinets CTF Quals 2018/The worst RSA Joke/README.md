@@ -6,7 +6,7 @@ Here's the challenge:
 Here's is the given tar.gz 
 [RSA_Worst_Joke.tar.gz](https://github.com/ozancetin/CTF-Writeups/blob/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/RSA_Worst_Joke.tar.gz?raw=true)
 
-include encrypted flag and public key
+Include encrypted flag and public key
 [flag.enc](https://github.com/ozancetin/CTF-Writeups/raw/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/flag.enc) and [public.pem](https://github.com/ozancetin/CTF-Writeups/raw/master/2018/Securinets%20CTF%20Quals%202018/The%20worst%20RSA%20Joke/public.pem)
 
 First of all you need to understand, How does RSA work?
