@@ -1,8 +1,8 @@
 # Rakamlar
 Bu soruda bize:
-
+```
 147896532 14789653 14789635 74269 14789632
-
+```
 5 tane anlamsız diyebileceğimiz sayı verilmişti ve bu sayıların plaintext halini bulmamızı istemişti.
 
 flag formatı STMCTF{} bizim eklememiz gerekiyordu.
