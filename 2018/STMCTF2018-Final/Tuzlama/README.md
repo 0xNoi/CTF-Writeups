@@ -33,7 +33,7 @@ Openssl kullanarak encrypted datayı decrypt edebildim. Ve bir Nusret jpeg dosya
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/5.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/pass_decrypted.jpeg)
 
-Bu noktadan sonra çok takıldım. Çünkü fotoğrafta hiçbir mantıklı bişey yoktu. Stego olabileceğini düşündüm kurcaladım ama yine bişey çıkmadı. Daha sonra soruya bir hint geldi tam olarak hint cümlesini hatırlamıyorum ama verdiği şey "Nusretten çıkıp tuzlamayı dışarıda aramamız gerektiği" ile ilgiliydi. Bi çeşit nusret fotoğrafı yanıltmaca olarak koyulmuştu.
+Bu noktadan sonra çok takıldım. Çünkü fotoğrafta hiçbir mantıklı bişey yoktu. Stego olabileceğini düşündüm kurcaladım ama yine bişey çıkmadı. Daha sonra soruya bir hint geldi tam olarak hint cümlesini hatırlamıyorum ama verdiği şey "Nusrete bakma dışarı bak" gibi bişeydi. Bi çeşit nusret fotoğrafı yanıltmaca olarak koyulmuştu.
 
 Opensslde salt ile ilgili araştırma yaptıktan sonra decrypt edilirken "-p" parametresi kullanılırsa salt değeri, keyi ve init vektörü ekrana bastırdığını öğrendim. Denediğimde salt değerinin hex versiyonu çıktı.
 Bu değeri flag.rar için parola olarak denediğimde işe yaradı. 
