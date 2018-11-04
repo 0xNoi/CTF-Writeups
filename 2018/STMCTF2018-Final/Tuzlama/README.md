@@ -3,6 +3,7 @@
 Yarışma esnasında screenshot alamadım ama aklımda kalanlar ile çözümünü anlatıyorum.
 
 Tuzlama sorusunda bize bir zip dosyası ile bir web sitesi veriliyor. Zip dosyasının içerisinde parolalı bir flag.rar dosyası ve encrypted.pass adlı şifrelenmiş bir data mevcut.
+
 ![tuzlama.zip](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/tuzlama.zip)
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/1.png)
