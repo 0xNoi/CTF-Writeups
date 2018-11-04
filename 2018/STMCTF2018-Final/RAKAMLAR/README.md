@@ -1,4 +1,7 @@
-# Rakamlar
+# Rakamlar ya da Sayılar 
+
+Sorunun tam ismini hatırlamıyorum
+
 Bu soruda bize:
 ```
 147896532 14789653 14789635 74269 14789632
