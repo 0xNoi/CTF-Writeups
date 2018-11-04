@@ -30,8 +30,6 @@ Algorithm: AES-256-CBC
 Key: 1sTm_2Ctf_3cRyPto!
 ```
 Openssl kullanarak encrypted datayı decrypt edebildim. Ve bir Nusret jpeg dosyası çıktı.
-
-![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/5.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/5.png)
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/pass_decrypted.jpeg)
 
