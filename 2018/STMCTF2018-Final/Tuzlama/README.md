@@ -1,6 +1,6 @@
 # Tuzlama
 
-Yarışma esnasında screenshot çekemedim ama aklımda kalanlar ile çözümünü anlatıyorum.
+Yarışma esnasında screenshot alamadım ama aklımda kalanlar ile çözümünü anlatıyorum.
 
 Tuzlama sorusunda bize bir zip dosyası ile bir web sitesi veriliyor. Zip dosyasının içerisinde parolalı bir flag.rar dosyası ve encrypted.pass adlı şifrelenmiş bir data mevcut.
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Tuzlama/tuzlama.zip)
