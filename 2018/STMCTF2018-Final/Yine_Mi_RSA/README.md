@@ -25,7 +25,7 @@ Ne yazıkki CTF Esnasında çözemedim, bu gece aklıma geldi ve soruya yeniden 
 
 Aslında soru çok basit ve cevap soruda verilmiş vaziyette.
 
-Yine hala, RSA sorularıyla hala ilgili varoluşsal sancılar çekmekteyim çok kaliteli bi write up olmayacağını baştan söyleyeyim, biraz deneme yanılma biraz mantıksal yaklaştığımda çözebildim. Orijinal write upını bende bekliyorum. Ya da tam net mantığını bu kadar uğraşmadan basitçe anlatabilen olursa, bana ulaşırsa sevinirim.
+Yine hala, RSA sorularıyla hala ilgili varoluşsal sancılar çekmekteyim çok kaliteli bi write up olmayacağını baştan söyleyeyim, biraz deneme yanılma biraz mantıksal yaklaştığımda çözebildim. Orijinal write upını bende bekliyorum. Ya da bu soru için tam net mantığını bu kadar uğraşmadan basitçe anlatabilen olursa, bana ulaşırsa sevinirim.
 
 ```
 Spoiler : m3 = m1 x m2 
