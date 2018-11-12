@@ -23,6 +23,9 @@ m3 = ?
 
 Ne yazıkki CTF Esnasında çözemedim, bu gece aklıma geldi ve soruya yeniden bakmaya karar verdim.
 
+
+Yine hala, RSA sorularıyla ilgili varoluşsal sancılar çekmekteyim çok kaliteli bi write up olmayacağını baştan söyleyeyim, biraz deneme yanılma, biraz mantıksal yaklaştığımda çözebildim. Orijinal write upını ben de bekliyorum. Anlayamadığım noktalardan birisi bu soru bir şaşırtma sorusu muydu ? Yoksa gerçekten böyle bir durumla karşılaşmak söz konusu mu ? Orasını tam kestiremedim. Bazı anlayamadığım noktalar mevcut.
+
 Aslında soru çok basit ve cevap soruda verilmiş vaziyette.
 
 ```
