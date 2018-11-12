@@ -123,7 +123,7 @@ m3 ^ e mod n = c3
 ```
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2018/STMCTF2018-Final/Yine_Mi_RSA/3.png)
 
-bingo bulduğumuz m3 sayısı c3 ü sağlıyor
+Bingo! Bulduğumuz m3 sayısı c3 ü sağlıyor
 
 yani
 
