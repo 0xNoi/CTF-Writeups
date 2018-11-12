@@ -25,7 +25,7 @@ Ne yazıkki CTF Esnasında çözemedim, bu gece aklıma geldi ve soruya yeniden 
 
 Aslında soru çok basit ve cevap soruda verilmiş vaziyette.
 
-Yine hala RSA sorularıyla hala ilgili varoluşsal sancılar çekmekteyim çok kaliteli bi write up olmayacağını baştan söyleyeyim, biraz deneme yanılma biraz mantıksal yaklaştığımda çözebildim. Orjinal write upını bende bekliyorum. 
+Yine hala, RSA sorularıyla hala ilgili varoluşsal sancılar çekmekteyim çok kaliteli bi write up olmayacağını baştan söyleyeyim, biraz deneme yanılma biraz mantıksal yaklaştığımda çözebildim. Orijinal write upını bende bekliyorum. Ya da tam net mantığını bu kadar uğraşmadan basitçe anlatabilen olursa, bana ulaşırsa sevinirim.
 
 ```
 Spoiler : m3 = m1 x m2 
@@ -90,7 +90,7 @@ c3 ^ d mod n = m3
 
 Normal şartlarda d yi bulabilmemiz çok mümkün gibi görünmüyor 
 
-fakat bu soruda bize verilen m1 ve m2yi kullanarak zaten "d" yi bulmamıza gerek kalmadan m3 oluşturabiliyoruz, sorudaki can alıcı ve ölümcül nokta burada.
+fakat bu soruda bize verilen m1 ve m2yi kullanarak zaten "d" yi bulmamıza gerek kalmadan m3 ü oluşturabiliyoruz, sorudaki can alıcı ve ölümcül nokta burada.
 
 Matematiksel olarak düşündüğümüzde
 
@@ -101,6 +101,8 @@ a^e x b^e = (axb)^e
 soruya uyarlarsak
 
 (m1 ^ e) x (m2 ^ e) = (m1 x m2) ^ e
+
+(Tabi bu a = m1 ve b = m2 olayı sadece bu soruya özel bi olay her zaman bu olmayacaktır.)
 
 m3 değerimiz aslında m1 ve m2 nin çarpımından oluşmakta
 
