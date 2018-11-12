@@ -26,7 +26,9 @@ Ne yazıkki CTF Esnasında çözemedim, bu gece aklıma geldi ve soruya yeniden 
 
 Yine hala, RSA sorularıyla ilgili varoluşsal sancılar çekmekteyim çok kaliteli bi write up olmayacağını baştan söyleyeyim, biraz deneme yanılma, biraz mantıksal yaklaştığımda çözebildim. Orijinal write upını ben de bekliyorum. Anlayamadığım noktalardan birisi bu soru bir şaşırtma sorusu muydu ? Yoksa gerçekten böyle bir durumla karşılaşmak söz konusu mu ? Orasını tam kestiremedim. Bazı anlayamadığım noktalar mevcut.
 
-Aslında soru çok basit ve cevap soruda verilmiş vaziyette.
+Aslında soru çok basit ve cevap soruda açıkça göz kırpıyor.
+
+Düz mantık olarak ilerledim. Her gittiğim yerde bi çıkarım yapmaya çalıştım.
 
 ```
 Spoiler : m3 = m1 x m2 
