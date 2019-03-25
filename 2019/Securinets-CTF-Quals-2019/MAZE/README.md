@@ -11,7 +11,7 @@ Inside the zip, there are 101 public key and 1 ciphertext as a decimal format an
 
 First of all I thought a write script but there are already tool [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
-This parameter usefull for multiple public key
+This parameter useful for multiple public keys
 
 ```python2 RsaCtfTool.py --publickey "*.pem" --private```
 
@@ -25,10 +25,11 @@ So thats easy, we dont need to write a any script for 2 private keys.
 
 remember RSA decrypting rule 
 ```To decrypt a ciphertext c, compute c^d mod (N)```
+```
 N : Modulus
 d : Private exponent
 c : Ciphertext (we already have it)
-
+```
 So we need to find N and d from private key lets do it with openssl thats parameters show us everything about private key
 
 ```openssl rsa -text -in private1.key```
