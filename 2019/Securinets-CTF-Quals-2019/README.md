@@ -55,7 +55,7 @@ modulus:
     ea:06:3a:dc:31:66:15:c0:b4:79:2c:b1:f9:b6:9f:
     f7:22:80:16:1e:01:c7:68:81:f4:d2:65:97:c3:22:
     53:f5
-publicExponent: 65537 (0x10001)
+publicExponent: 65537 (0x10001) 
 privateExponent:
     00:84:1f:7f:5c:6d:80:a1:0e:91:58:95:10:13:40:
     62:c8:ad:3e:1d:67:a6:7b:79:b1:bf:5c:3a:f2:2b:
@@ -128,54 +128,13 @@ coefficient:
 writing RSA key
 ```
 
-And as you can see here's modulus and private key 
+And as you can see here's modulus and private exponent 
+Now we have N and d. Just convert hex to decimal and write a python script.
 
-```
-modulus:
-    00:b8:42:a7:7d:fb:1d:21:a8:0e:4a:38:79:3e:72:
-    d6:05:5f:1a:79:38:1a:bb:6e:88:8e:47:e3:72:1d:
-    4f:57:92:7a:a0:f2:df:08:22:e4:8c:a1:ef:2a:63:
-    ef:a3:e0:36:6b:7b:46:54:8f:2c:7b:ab:ff:c8:34:
-    f3:4b:36:97:98:bf:5c:84:51:58:8e:77:77:8a:32:
-    54:68:54:3a:12:42:0b:b1:80:66:16:ce:cf:f3:c4:
-    e2:5d:f8:cc:e5:dd:bd:5b:1a:84:d7:53:a8:9f:7c:
-    b4:ea:34:79:d8:0c:e9:81:79:e5:9e:9a:cf:85:77:
-    30:13:2d:57:d1:d1:f7:71:75:71:e8:3d:df:f6:a8:
-    e8:ed:b0:fc:6c:33:2e:5d:d8:0a:5f:01:9a:a4:71:
-    3d:49:dd:a7:96:74:5d:d6:7d:f9:b1:8c:c3:11:d7:
-    e8:11:d4:0d:16:0f:da:5c:3f:bb:5e:f3:6a:c2:41:
-    60:49:7d:41:ab:48:69:06:02:dd:eb:56:18:db:04:
-    40:21:75:52:9f:9f:59:eb:58:6f:40:d8:36:02:56:
-    44:49:3d:f5:63:6f:23:2c:ac:3f:04:24:76:a9:0f:
-    ea:06:3a:dc:31:66:15:c0:b4:79:2c:b1:f9:b6:9f:
-    f7:22:80:16:1e:01:c7:68:81:f4:d2:65:97:c3:22:
-    53:f5
-privateExponent:
-    00:84:1f:7f:5c:6d:80:a1:0e:91:58:95:10:13:40:
-    62:c8:ad:3e:1d:67:a6:7b:79:b1:bf:5c:3a:f2:2b:
-    a4:25:e6:29:ba:59:0c:a6:17:e7:0c:14:5d:9b:66:
-    d7:82:09:96:dc:11:24:08:24:35:c0:64:3f:df:be:
-    60:2a:31:76:18:98:36:ed:c6:2a:9a:d5:7d:49:01:
-    f7:d6:6b:76:cc:7a:c1:49:c1:08:f3:17:ce:b3:3c:
-    1d:19:46:fb:1d:64:97:8f:c8:ff:32:2b:91:c0:f2:
-    ba:03:2a:27:a8:4c:f1:ee:de:8a:50:e5:2f:22:c3:
-    a9:1c:47:2a:2e:90:c1:3e:7f:c0:62:3f:e9:45:8b:
-    ba:11:c6:ef:34:d1:7e:e0:95:ea:5e:cf:5d:4e:40:
-    43:bd:9b:a6:82:12:9f:ef:79:ce:d2:79:9d:cc:89:
-    fa:23:a8:9f:90:f4:ce:7c:eb:a0:73:d9:6c:38:eb:
-    80:1b:75:b9:4f:4f:91:ee:47:02:6b:ca:80:2e:1e:
-    70:ad:4f:f2:2b:96:56:22:da:8a:1a:aa:85:66:6e:
-    61:67:ef:35:ec:5f:d0:d9:f9:25:63:2c:68:18:00:
-    1e:b8:d2:c9:eb:50:12:c5:90:ce:2e:fd:f6:77:e5:
-    ab:22:3f:31:7d:6e:ac:9a:3e:8d:23:f9:33:09:e8:
-    8f:4d
-    ```
     
-    Now we have N and d just convert hex to decimal and pow 
+```python2 
     
-    ```python2 
-    
-    n = int("00b842a77dfb1d21a80e4a38793e72d6055f1a79381abb6e888e47e3721d4f57927aa0f2df0822e48ca1ef2a63efa3e0366b7b46548f2c7babffc834f34b369798bf5c8451588e77778a325468543a12420bb1806616cecff3c4e25df8cce5ddbd5b1a84d753a89f7cb4ea3479d80ce98179e59e9acf857730132d57d1d1f7717571e83ddff6a8e8edb0fc6c332e5dd80a5f019aa4713d49dda796745dd67df9b18cc311d7e811d40d160fda5c3fbb5ef36ac24160497d41ab48690602ddeb5618db04402175529f9f59eb586f40d836025644493df5636f232cac3f042476a90fea063adc316615c0b4792cb1f9b69ff72280161e01c76881f4d26597c32253f5",16)
+n = int("00b842a77dfb1d21a80e4a38793e72d6055f1a79381abb6e888e47e3721d4f57927aa0f2df0822e48ca1ef2a63efa3e0366b7b46548f2c7babffc834f34b369798bf5c8451588e77778a325468543a12420bb1806616cecff3c4e25df8cce5ddbd5b1a84d753a89f7cb4ea3479d80ce98179e59e9acf857730132d57d1d1f7717571e83ddff6a8e8edb0fc6c332e5dd80a5f019aa4713d49dda796745dd67df9b18cc311d7e811d40d160fda5c3fbb5ef36ac24160497d41ab48690602ddeb5618db04402175529f9f59eb586f40d836025644493df5636f232cac3f042476a90fea063adc316615c0b4792cb1f9b69ff72280161e01c76881f4d26597c32253f5",16)
 
 d = int("00841f7f5c6d80a10e91589510134062c8ad3e1d67a67b79b1bf5c3af22ba425e629ba590ca617e70c145d9b66d7820996dc1124082435c0643fdfbe602a3176189836edc62a9ad57d4901f7d66b76cc7ac149c108f317ceb33c1d1946fb1d64978fc8ff322b91c0f2ba032a27a84cf1eede8a50e52f22c3a91c472a2e90c13e7fc0623fe9458bba11c6ef34d17ee095ea5ecf5d4e4043bd9ba682129fef79ced2799dcc89fa23a89f90f4ce7ceba073d96c38eb801b75b94f4f91ee47026bca802e1e70ad4ff22b965622da8a1aaa85666e6167ef35ec5fd0d9f925632c6818001eb8d2c9eb5012c590ce2efdf677e5ab223f317d6eac9a3e8d23f93309e88f4d",16)
 
@@ -185,4 +144,7 @@ plain = str(hex(pow(c, d, n)))[2::]
 print(''.join([chr(int(''.join(c), 16)) for c in zip(plain[0::2],plain[1::2])]))
 ```
     
-    
+Flag : 
+```
+securinets{rs4_1s_g00d_s0m3t1m3s!}
+```
