@@ -7,7 +7,7 @@ Here's the challenge:
 Here's the given zip
 [chall.zip](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/Securinets-CTF-Quals-2019/MAZE/chall.zip?raw=true)
 
-Inside the zip, there are 101 public key and 1 ciphertext as a decimal format and we need to find correct public key and try to crack if it is possible then create private key for decrypt the ciphertext.
+Inside the zip, there are 101 public keys and 1 ciphertext as a decimal format and we need to find correct public key and try to crack if it is possible then create private key for decrypt the ciphertext.
 
 First of all I thought a write script but there are already tool [RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)
 
