@@ -13,8 +13,8 @@ First of all I thought a write script but there are already tool [RsaCtfTool](ht
 
 This parameter usefull for multiple public key
 
-```python2 RsaCtfTool.py --publickey "*.pem" --private
-```
+```python2 RsaCtfTool.py --publickey "*.pem" --private```
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/rsactftool.png)
 
 after a bit waiting I saw only 2 key breakable as a  :
