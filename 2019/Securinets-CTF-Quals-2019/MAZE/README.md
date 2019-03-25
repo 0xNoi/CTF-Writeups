@@ -17,7 +17,7 @@ This parameter useful for multiple public keys
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/rsactftool.png)
 
-after a bit waiting I saw only 2 key breakable as a  :
+after a bit waiting I saw only 2 public keys easily breakable as a  :
 [private1.key](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/private1.key)
 [private2.key](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/private2.key)
 
