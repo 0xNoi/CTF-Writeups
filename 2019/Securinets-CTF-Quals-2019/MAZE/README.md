@@ -17,8 +17,8 @@ This parameter usefull for multiple public key
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/rsactftool.png)
 
 after a bit waiting I saw only 2 key breakable as a  :
-![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/private1.key)
-![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/private2.key)
+[private1.key](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/private1.key)
+[private2.key](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/private2.key)
 
 So thats easy, we dont need to write a any script for 2 private keys.
 
@@ -132,7 +132,7 @@ And as you can see here's modulus and private exponent
 Now we have N and d. Just convert hex to decimal and write a python script.
 
     
-```python2 
+```python
     
 n = int("00b842a77dfb1d21a80e4a38793e72d6055f1a79381abb6e888e47e3721d4f57927aa0f2df0822e48ca1ef2a63efa3e0366b7b46548f2c7babffc834f34b369798bf5c8451588e77778a325468543a12420bb1806616cecff3c4e25df8cce5ddbd5b1a84d753a89f7cb4ea3479d80ce98179e59e9acf857730132d57d1d1f7717571e83ddff6a8e8edb0fc6c332e5dd80a5f019aa4713d49dda796745dd67df9b18cc311d7e811d40d160fda5c3fbb5ef36ac24160497d41ab48690602ddeb5618db04402175529f9f59eb586f40d836025644493df5636f232cac3f042476a90fea063adc316615c0b4792cb1f9b69ff72280161e01c76881f4d26597c32253f5",16)
 
