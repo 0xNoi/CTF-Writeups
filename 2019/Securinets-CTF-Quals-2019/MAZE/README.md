@@ -1,6 +1,7 @@
 # MAZE
 
 Here's the challenge: 
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Securinets-CTF-Quals-2019/MAZE/MAZE.png)
 
 Here's the given zip
