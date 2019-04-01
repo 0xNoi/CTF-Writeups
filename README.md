@@ -8,3 +8,6 @@
 - Securinets CTF Quals 2018
 - STMCTF 2018
 
+# 2019
+- Securinets CTF Quals 2019
+- Sunshine CTF 2019
