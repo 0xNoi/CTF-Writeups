@@ -1,4 +1,4 @@
-# Sunshine CTF 2019 ALL CRYPTO CHALLENGES WRITEUPS
+# Sunshine CTF 2019 Crypto Challenges Writeups
 # Welcome Crypto [50]
 
 Here's the challenge
@@ -23,6 +23,7 @@ sun{w3lC0m3_T0_da_k4g3!}
 # CB1 [50]
 
 Here's the challenge
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/CB1.png)
 
 
@@ -43,6 +44,7 @@ its maybe lower case I dont remember exactly.
 # CB2 [100]
 
 Here's the challenge
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/CB2.png)
 
 
@@ -83,6 +85,7 @@ flag is : ```polysquaresrule ```
 # CB3 [150]
 
 Here's the challenge
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/CB3.png)
 
 Given in CB3.wav
@@ -114,6 +117,7 @@ Flag is ```g3rm4n3ncrypt10n```
 # ArbCrypt [200]
 
 Here's the challenge
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/ArbCrypt.png)
 
 
@@ -197,6 +201,7 @@ already nested human wine
 # 16-BIT-AES [100]
 
 Here's the challenge
+
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/16BitAes.png)
 
 
