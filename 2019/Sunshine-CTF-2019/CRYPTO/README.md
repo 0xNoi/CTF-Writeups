@@ -31,6 +31,9 @@ Given in CB1.wav
 
 Its Amateur Radio Phonetic Alphabet
 
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/PhoneticAlphabet.jpg)
+
+
 When we listen and convert cipher is :
 
 ```
