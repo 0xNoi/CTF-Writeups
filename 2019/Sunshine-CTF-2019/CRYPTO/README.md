@@ -1,4 +1,4 @@
-# Sunshine CTF 2019 Crypto Challenges Writeups
+# Sunshine CTF 2019 All Crypto Challenges Writeups
 # Welcome Crypto [50]
 
 Here's the challenge
