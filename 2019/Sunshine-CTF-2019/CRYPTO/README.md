@@ -1,6 +1,11 @@
 # Sunshine CTF 2019 ALL CRYPTO CHALLENGES WRITEUPS
 # Welcome Crypto [50]
 
+Here's the challenge
+
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/Welcome-Crypto.png)
+
+
 ```
 ~C8 =39 A?2V8 73J:C 8FG7 AF?JJC2ECP
 
@@ -17,6 +22,10 @@ sun{w3lC0m3_T0_da_k4g3!}
 
 # CB1 [50]
 
+Here's the challenge
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/CB1.png)
+
+
 Given in CB1.wav
 
 Its Amateur Radio Phonetic Alphabet
@@ -32,6 +41,10 @@ Here's flag: ```BEWARETHEIDESOFMARCH```
 its maybe lower case I dont remember exactly.
 
 # CB2 [100]
+
+Here's the challenge
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/CB2.png)
+
 
 Given in CB2.wav
 
@@ -69,6 +82,9 @@ flag is : ```polysquaresrule ```
 
 # CB3 [150]
 
+Here's the challenge
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/CB3.png)
+
 Given in CB3.wav
 
 Its same thing again Phonetic Alphabet
@@ -95,7 +111,11 @@ Key     : prideful
 
 Flag is ```g3rm4n3ncrypt10n``` 
 
-# ArbEncrypt [200]
+# ArbCrypt [200]
+
+Here's the challenge
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/ArbCrypt.png)
+
 
 This challenge made me crazy 
 
@@ -176,7 +196,11 @@ already nested human wine
 
 # 16-BIT-AES [100]
 
-This answer describe as well why is not 16 bit aes exist.
+Here's the challenge
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/16BitAes.png)
+
+
+This answer describe as well why is not 16 bit key aes exist.
 https://crypto.stackexchange.com/questions/35117/are-there-attacks-on-aes-with-16-bit-keys
 
 So if they use AES-128-ECB and key is 16 bit, key must be iterate itself so which means that we can find that key quickly bruteforce.
@@ -212,7 +236,7 @@ Encrypt given text with that key
 ```fLfLfLfLfLfLfLfL```
 
 and get flag
-
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/Sunshine-CTF-2019/CRYPTO/16BitAes_Solution.png)
 
 Flag is : 
 ```Correct! The flag is sun{Who_kn3w_A3$_cou1d_be_s0_vulner8ble?}```
