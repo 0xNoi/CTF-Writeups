@@ -31,7 +31,7 @@ for ct in ciphertexts:
 result_final = ''.join(result)
 
 #After decoding all ciphertexts as a decimals, split and convert to ascii, then decode base32 
-#And last part finally convert decimal to ascii 
+#And last part again convert decimal to ascii 
 
 decimal_list = [result_final[i:i+2] for i in range(0, len(result_final), 2)]
 decimal_list = map(int, decimal_list)
