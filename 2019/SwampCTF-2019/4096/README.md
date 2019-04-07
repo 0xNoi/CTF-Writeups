@@ -1,6 +1,10 @@
 # 4096 [490]
 
-Here's given challenge zip: 
+Here's the challenge: 
+
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/SwampCTF-2019/4096/4096.png)
+
+Here's given challenge zip: [4096.zip](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/SwampCTF-2019/4096/4096.zip?raw=true)
 
 4096.zip
 
