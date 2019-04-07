@@ -22,15 +22,10 @@ print 'flag{' + result_final + '}'
 
 
 '''
-plain = str(hex(pow(c, d, n)))[2::]
-print(''.join([chr(int(''.join(c), 16)) for c in zip(plain[0::2],plain[1::2])]))
-
-
-#public0.pem crackable with rsactftool
-
-
+#c0.txt = c44 c50 c55
 #c44.txt = R1v35t_
 #c50.txt = Sh4m1r_
 #c55.txt  = Adl3m4N
 
-#flag{R1v35t_Sh4m1r_Adl3m4N}'''
+#flag{R1v35t_Sh4m1r_Adl3m4N}
+'''
