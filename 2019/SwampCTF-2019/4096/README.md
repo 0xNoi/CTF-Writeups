@@ -14,11 +14,11 @@ but reality not at all actually there is only 1 key correct which is public0.pem
 
 I recognized that with RsaCtfTool multiple crack mod give a padding error. Then create private key from public0.pem.
 
-```python2 RsaCtfTool.py --publickey public0.pem --private```
+```python2 RsaCtfTool.py --publickey public0.pem --private > private0.key```
 
 then find N and d from private key with openssl
 
-```openssl rsa -text -in private1.key```
+```openssl rsa -text -in private0.key```
 
 then I try to decrypt first ciphertext which is c0.txt its obvious base64 and I decode base64,
 
