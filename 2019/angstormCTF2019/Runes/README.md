@@ -2,9 +2,10 @@
 
 Here's challenge:
 
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/angstormCTF2019/Runes/runes.png)
 
 
-Here's given runes.txt
+Here's given [runes.txt](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/angstormCTF2019/Runes/runes.txt)
 ```
 n: 99157116611790833573985267443453374677300242114595736901854871276546481648883
 g: 99157116611790833573985267443453374677300242114595736901854871276546481648884
