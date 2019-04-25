@@ -9,7 +9,7 @@ Given Lithp code: [lithp.lisp](https://raw.githubusercontent.com/ozancetin/CTF-W
 
 I recognized relation given integer values as a:
 
-8930 = 94 * 95
+8930 = 94 * 95 |
 15006 = 122 * 123
 ... and so on
 
