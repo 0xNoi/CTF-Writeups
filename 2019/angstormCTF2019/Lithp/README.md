@@ -15,7 +15,7 @@ I recognized relation given integer values as a:
 
 it seems like a a decimal values to ascii
 
-write a python script finding for finding Consecutive numbers and reorder as a given array then convert ascii
+write a python script for finding Consecutive numbers and reorder as a given array then convert ascii
 
 Here's script:
 
