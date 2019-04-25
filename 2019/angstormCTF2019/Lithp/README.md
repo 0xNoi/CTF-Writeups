@@ -2,8 +2,10 @@
 
 Here's challenge:
 
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/angstormCTF2019/Lithp/Lithp.png)
 
-Given Lithp code: [lithp.lisp]()
+
+Given Lithp code: [lithp.lisp](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/angstormCTF2019/Lithp/lithp.lisp)
 
 I recognized relation given integer values as a:
 
