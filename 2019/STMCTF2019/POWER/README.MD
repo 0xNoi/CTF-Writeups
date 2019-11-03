@@ -1,9 +1,10 @@
-# POWER 
+# POWER [CRYPTO]
 
 Öncelikle soru gerçek hayattan uzak, kalitesi tartışılabilir, tam olarak kategorisi ise `Stego&Crypto + Tahmin` ağırlıklı  ve son 2-3 saat kala gelen bi soruya göre çözülmek için biraz gazete pazar eki bulmacası tadında. 
 
 Soru: 
-` Bize bir zip dosyası verilmiş. İçerisinde power.jpg ve soru.txt mevcut`
+ Bize bir ![POWER.zip](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/POWER.zip)
+ dosyası verilmiş. İçerisinde power.jpg ve soru.txt mevcut
 
 Soru.txt :
 
@@ -24,8 +25,6 @@ power.jpg:
 ![](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg?raw=true)
 
 
-
-
 power.jpg'e Steghide bruteforce attığımda içinden power.jpg.out veri seti çıktı.
 
 Steghide bruteforce için github reposu: https://github.com/Paradoxis/StegCracker
@@ -36,6 +35,9 @@ Parolayı tam olarak bilmiyorum fakat rockyou wordlistinde çok üstte olan basi
 
 Her neyse veriler, Soruya göre CPU'nun harcağı gücün grafiğine ait. 
 Verileri detaylı incelediğimde en yüksek 800 bandı, düşüklük olarak 400 bandı, ve en düşük 100 bandında 3 çeşit veri bulunuyor.
+
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/1.png)
+
 
 Sıklıklara baktığımda 100 bandıdaki veriler cpunun normal halini temsil ediyor olabilir. belirgin olarak 400 ve 800 bandındaki veriler daha düzensiz ve hesaplama adına anlamlı veriler.
 
@@ -48,6 +50,8 @@ verdiğim zaman veriler biraz daha anlamlı olmaya başlıyor. her ne kadar rsa 
 bu seyreltme işini SublimeText ve Regex kullanarak yaptım:
 
 son çıkan manzara böyleydi:
+
+![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/2.png)
 
 
 10ar 10ar çıkan 0 ve 1 leride seyrelttim:
