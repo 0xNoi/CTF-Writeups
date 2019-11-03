@@ -21,6 +21,9 @@ n =   24554082244423576690279633247865769176171558470735704642013748456293986193
 
 power.jpg:
 
+![](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg?raw=true)
+
+
 
 
 power.jpg'e Steghide bruteforce attığımda içinden power.jpg.out veri seti çıktı.
