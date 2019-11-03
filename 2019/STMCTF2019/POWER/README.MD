@@ -25,7 +25,8 @@ power.jpg:
 ![](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg?raw=true)
 
 
-power.jpg'e Steghide bruteforce attığımda içinden power.jpg.out veri seti çıktı.
+power.jpg'e Steghide bruteforce attığımda içinden ![power.jpg.out](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg.out)
+ veri seti çıktı.
 
 Steghide bruteforce için github reposu: https://github.com/Paradoxis/StegCracker
 
