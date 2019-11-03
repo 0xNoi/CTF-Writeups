@@ -1,2 +1,2 @@
 # STMCTF2019
-VakitNakittir
+- VakitNakittir
