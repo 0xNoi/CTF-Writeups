@@ -3,7 +3,7 @@
 Öncelikle soru gerçek hayattan uzak, kalitesi tartışılabilir, tam olarak kategorisi ise `Stego&Crypto + Tahmin` ağırlıklı  ve son 2-3 saat kala gelen bi soruya göre çözülmek için biraz gazete pazar eki bulmacası tadında. 
 
 Soru: 
- Bize bir ![POWER.zip](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/POWER.zip)
+ Bize bir [POWER.zip](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/POWER.zip)
  dosyası verilmiş. İçerisinde power.jpg ve soru.txt mevcut
 
 Soru.txt :
@@ -25,7 +25,7 @@ power.jpg:
 ![](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg?raw=true)
 
 
-power.jpg'e Steghide bruteforce attığımda içinden ![power.jpg.out](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg.out)
+power.jpg'e Steghide bruteforce attığımda içinden [power.jpg.out](https://github.com/ozancetin/CTF-Writeups/blob/master/2019/STMCTF2019/POWER/power.jpg.out)
  veri seti çıktı.
 
 Steghide bruteforce için github reposu: https://github.com/Paradoxis/StegCracker
