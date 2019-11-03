@@ -40,7 +40,7 @@ Verileri detaylı incelediğimde en yüksek 800 bandı, düşüklük olarak 400 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/1.png)
 
 
-Sıklıklara baktığımda 100 bandıdaki veriler cpunun normal halini temsil ediyor olabilir. belirgin olarak 400 ve 800 bandındaki veriler daha düzensiz ve hesaplama adına anlamlı veriler.
+Sıklıklara baktığımda 100 bandıdaki veriler cpunun normal halini temsil ediyor olabilir. belirgin olarak 400 ve 800 bandındaki veriler daha düzensiz ve hesaplama adına anlamlı veriler gibi görünüyor (çok şeyapmayın deneme yanılma)
 
 `Her 100lü veriyi silip`
 
