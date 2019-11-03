@@ -1,4 +1,4 @@
-# VAKİT NAKİTTİR [CRYPTO]
+# VakitNakittir [CRYPTO]
 
 Challenge
 ```
