@@ -43,7 +43,9 @@ Verileri detaylı incelediğimde en yüksek 800 bandı, düşüklük olarak 400 
 Sıklıklara baktığımda 100 bandıdaki veriler cpunun normal halini temsil ediyor olabilir. belirgin olarak 400 ve 800 bandındaki veriler daha düzensiz ve hesaplama adına anlamlı veriler.
 
 `Her 100lü veriyi silip`
+
 `Her 400lü veriye  > 0 `
+
 `Her 800lü veriye  > 1 `
 
 verdiğim zaman veriler biraz daha anlamlı olmaya başlıyor. her ne kadar rsa için tahminli bir aşama olsa da sabırla devam ediyorum.
@@ -58,6 +60,7 @@ son çıkan manzara böyleydi:
 10ar 10ar çıkan 0 ve 1 leride seyrelttim:
 
 `0 0 0 0 0 0 0 0 0 0 > 0`
+
 `1 1 1 1 1 1 1 1 1 1 > 1`
 
 ve en son elimizde kalan binary verisi:
