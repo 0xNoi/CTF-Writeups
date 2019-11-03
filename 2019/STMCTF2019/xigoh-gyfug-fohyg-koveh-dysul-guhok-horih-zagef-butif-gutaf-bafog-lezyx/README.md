@@ -40,7 +40,7 @@ Hızlıca decode edebilmek için bir python reposu indirip flagi buldum.
 
 https://github.com/eur0pa/bubblepy
 
-![](![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/xigoh-gyfug-fohyg-koveh-dysul-guhok-horih-zagef-butif-gutaf-bafog-lezyx/ScreenShots/Decoded.png))
+![](![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/xigoh-gyfug-fohyg-koveh-dysul-guhok-horih-zagef-butif-gutaf-bafog-lezyx/ScreenShots/Decode.png))
 
 
 Flag: `STMCTF{R0tTen_P0t4t0NG}`
