@@ -34,7 +34,7 @@ Parolayı tam olarak bilmiyorum fakat rockyou wordlistinde çok üstte olan basi
 
 
 
-Her neyse veriler, Soruya göre CPU'nun harcağı gücün grafiğine ait. 
+Her neyse veriler, Soruya göre CPU'nun harcadığı gücün grafiğine ait. 
 Verileri detaylı incelediğimde en yüksek 800 bandı, düşüklük olarak 400 bandı, ve en düşük 100 bandında 3 çeşit veri bulunuyor.
 
 ![](https://raw.githubusercontent.com/ozancetin/CTF-Writeups/master/2019/STMCTF2019/POWER/1.png)
